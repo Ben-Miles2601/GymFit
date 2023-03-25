@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "807460552471",
+    "project_id": "gymfit-8cf84",
+    "storage_bucket": "gymfit-8cf84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807460552471:android:fc9f6fe53001e813d80152",
+        "android_client_info": {
+          "package_name": "com.example.gymfit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807460552471-f7iqd8qkdf6u4qoukdfb3c0lf1gmupgk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs4dPXlra0HVT8MUPVgdoUxCzUgY2Zuiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807460552471-f7iqd8qkdf6u4qoukdfb3c0lf1gmupgk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

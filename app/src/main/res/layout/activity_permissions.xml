@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.permissions.PermissionsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/permissions_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Permissions"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/permissions_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:text="GymFit requires certain permissions to provide you with the best user experience. By using this app, you agree to grant the following permissions:" />
+
+        <TextView
+            android:id="@+id/permission_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="14sp"
+            android:text="1. Location: To help you find nearby gyms and fitness centers." />
+
+        <TextView
+            android:id="@+id/permission_storage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="14sp"
+            android:text="2. Storage: To store your workout and nutrition data locally on your device." />
+
+        <TextView
+            android:id="@+id/permission_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="14sp"
+            android:text="3. Camera: To allow you to upload profile pictures and share progress photos." />
+
+        <TextView
+            android:id="@+id/permissions_agreement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:text="By signing up for GymFit, you acknowledge and accept these permissions. You can manage these permissions in your device's settings at any time." />
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_marginTop="16dp" />
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -31,6 +31,12 @@ class LoginActivity : AppCompatActivity() {
                 Toast.makeText(this, "Please fill in all fields.", Toast.LENGTH_SHORT).show()
             }
         }
+        val registerButton = findViewById<Button>(R.id.registerButton)
+
+        registerButton.setOnClickListener {
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun loginUser(email: String, password: String) {

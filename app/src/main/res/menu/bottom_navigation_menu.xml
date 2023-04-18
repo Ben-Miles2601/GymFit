@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuPage"
+        android:icon="@drawable/homeicon"
+        android:title="Menu" />
+
+    <item
+        android:id="@+id/timetablePage"
+        android:icon="@drawable/calculatoricon"
+        android:title="Timetable" />
+
+    <item
+        android:id="@+id/calorieDeficitPage"
+        android:icon="@drawable/calculatoricon"
+        android:title="Calorie Deficit" />
+</menu>

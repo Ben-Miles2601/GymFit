@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">GymFit</string>
+    <string name="menu">Menu</string>
+    <string name="title_home">Home</string>
+    <string name="title_calculator">Calculator</string>
+    <string name="title_timetable">Timetable</string>
 </resources>

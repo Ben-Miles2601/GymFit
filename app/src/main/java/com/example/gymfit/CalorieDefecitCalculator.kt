@@ -1,11 +1,14 @@
 package com.example.gymfit
-
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.example.gymfit.setupBottomNavigation
+import com.example.gymfit.R
 
 class CalorieDeficitCalculatorActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,6 +33,9 @@ class CalorieDeficitCalculatorActivity : AppCompatActivity() {
                 Toast.makeText(this, "Please fill in all fields with valid numbers.", Toast.LENGTH_SHORT).show()
             }
         }
+
+        // Set up the bottom navigation menu
+        setupBottomNavigation(R.id.calorieDeficitPage)
     }
 
     private fun calculateBmr(weight: Double, height: Double, age: Int): Double {
